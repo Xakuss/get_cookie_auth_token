@@ -126,6 +126,9 @@ if __name__ == '__main__':
     with open("data.csv", "r") as file:
         reader = csv.DictReader(file)
         for row in reader:
-            twitter_auth(get_chromedriver_with_proxy(row["proxy_ip"], row["proxy_port"], row["proxy_login"],
-                                                     row["proxy_password"], row["user_agent"]),
-                         row["tw_login"], row["tw_password"], row["tw_reserve_mail"])
+            try:
+                twitter_auth(get_chromedriver_with_proxy(row["proxy_ip"], row["proxy_port"], row["proxy_login"],
+                                                         row["proxy_password"], row["user_agent"]),
+                             row["tw_login"], row["tw_password"], row["tw_reserve_mail"])
+            except Exception as ex:
+                print(ex, "где то ошибка")
