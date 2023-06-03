@@ -1,1 +1,4 @@
-{"domain": ".twitter.com", "expiry": 1720357126, "httpOnly": true, "name": "auth_token", "path": "/", "sameSite": "None", "secure": true, "value": "b1dc8acf277ab2dfe089d3028e0bd50f977f172a"},
+[{"domain": ".twitter.com", "expiry": 1720373229, "httpOnly": true, "name": "auth_token", "path": "/", "sameSite": "None", "secure": true, "value": "c37ee2feb675ef6cf4e44c254919fd759f2620e9"},
+{"domain": ".twitter.com", "expiry": 1720373250, "httpOnly": true, "name": "auth_token", "path": "/", "sameSite": "None", "secure": true, "value": "2169b981fc9f632150d2371a99488f214c6f9a97"},
+{"domain": ".twitter.com", "expiry": 1720373272, "httpOnly": true, "name": "auth_token", "path": "/", "sameSite": "None", "secure": true, "value": "b9bdc8dd8e63f9e275e805f21e8aeae06ec14afe"},
+{}]
