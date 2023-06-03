@@ -1,0 +1,1 @@
+{"domain": ".twitter.com", "expiry": 1720357126, "httpOnly": true, "name": "auth_token", "path": "/", "sameSite": "None", "secure": true, "value": "b1dc8acf277ab2dfe089d3028e0bd50f977f172a"},
